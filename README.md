@@ -1,4 +1,4 @@
-Sistema de aleta de conexiones a tu red privada para Linux y Windows.
+Sistema de alerta de conexiones a tu red privada para Linux y Windows.
 
 Permite crear whitelist, guardar dispositivos desconocidos y dispositivos a bloquear desde la misma herramienta.
 
