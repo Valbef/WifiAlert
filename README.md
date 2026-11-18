@@ -32,7 +32,7 @@ Instrucciones de uso:
 
  2-Seleccionar una red detectada o introducirla manualmente con el comando M (por ejemplo ???.???.?.0/24)
 
- (ver la red con iwconfig i sustituir el ultimo numero por 0/24)
+ (ver la red con iwconfig y sustituir el ultimo numero por 0/24)
 
  3-Seleccionaentre modo Manual o Automatico (usa el modo manual para el primer uso para crear la whitelist)
 
