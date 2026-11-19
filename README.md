@@ -21,7 +21,7 @@ Instalacion en linux:
 
   cd WifiAlert
 
-  python WifiAlert.py
+  sudo python WifiAlert.py
 
 
 ========================================================================
