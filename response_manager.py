@@ -289,10 +289,10 @@ def response_manager(ip, mac):
             print("Utiliza la informacion para bloquear el dispositivo desde el router")
             print("o utiliza otra herramienta para tomar las medidas oportunas.")
             print("Proximamente mas opciones defensivas con las nuevas actualizaciones. ")
-            #command = ["aireplay-ng", "-0", "20", "-a", f"{CURRENT_BSSID}", "-c", f"{mac}", "wlan0"]
+            #command = [" "]
 
             #subprocess.run(command)
-            #Quitar los comentarios de arriba y corregir el comando si quiere usarse, solo en Linux.
+            #Quitar los comentarios de arriba y añadir un comando si quiere usarse, solo en Linux.
             print(
                 f"[INFO] BSSID registrado: "
                 f"{CURRENT_BSSID or 'No seleccionado'}"

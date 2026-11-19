@@ -41,7 +41,7 @@ logging.basicConfig(
 # ==========================================
 
 WIFI_INTERFACE = None
-BSSID_SCAN_TIMEOUT = 15
+BSSID_SCAN_TIMEOUT = 45
 
 previous_bssids = set()
 
@@ -415,8 +415,6 @@ def scan_bssids():
 
             result = subprocess.run(
                 [
-                    "sudo",
-                    "-n",
                     "iw",
                     "dev",
                     WIFI_INTERFACE,
@@ -984,6 +982,12 @@ def select_bssid_if_needed(bssids):
 
 
 def main():
+    print(f"\n{LIGHT_GREEN}==========================================")
+    print("                WIFI ALERT")
+    print(f"=========================================={RESET}")
+    print(f"{ORANGE}By:Valbef                  Version: 1.0.0{RESET}")
+    print(f"{ORANGE}Network Device Monitor{RESET}")
+    print(f"{LIGHT_GREEN}=========================================={RESET}\n")
 
     global WIFI_INTERFACE, NETWORK, SCAN_INTERVAL
 
